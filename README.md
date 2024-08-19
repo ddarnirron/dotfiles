@@ -1,14 +1,14 @@
 # dotfiles
 All my configuration files (neovim and more).
 
-## Table of Contents
+## Table of Contents
 
 - [.config](#.config)
   - [nvim](nvim)
 
 ## .config
 
-### nvim
+### nvim
 
 #### Requirements
 
