@@ -58,19 +58,19 @@ return {
         function(server_name)
           require("lspconfig")[server_name].setup({})
         end,
-      },
 
-      helm_ls = function()
-        require("lspconfig").helm_ls.setup({
-          settings = {
-            ["helm-ls"] = {
-              yamlls = {
-                path = "yaml-language-server",
+        helm_ls = function()
+          require("lspconfig").helm_ls.setup({
+            settings = {
+              ["helm-ls"] = {
+                yamlls = {
+                  path = "yaml-language-server",
+                },
               },
             },
-          },
-        })
-      end,
+          })
+        end,
+      },
     })
   end,
 }
